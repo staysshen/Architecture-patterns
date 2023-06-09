@@ -24,6 +24,5 @@ class BrokerTest(unittest.TestCase):
         expected_result = "ServerA processed: Hello, Broker!"
         self.assertEqual(response.result, expected_result)
 
-
 if __name__ == '__main__':
     unittest.main()

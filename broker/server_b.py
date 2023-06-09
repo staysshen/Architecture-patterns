@@ -1,6 +1,5 @@
 from broker import Server, Response
 
-
 class ServerB(Server):
     def process_request(self, request):
         # Process the request specific to ServerB
