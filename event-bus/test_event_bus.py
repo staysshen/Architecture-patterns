@@ -16,10 +16,6 @@ class EventBusTest(unittest.TestCase):
         # Act
         event_bus.publish("event_type_a", "Event data for type A")
         event_bus.publish("event_type_b", "Event data for type B")
-
-        # Assert
-        # Since the components only print the event data, we cannot assert the output directly.
-        # You can manually check the console output to ensure the event handling is working as expected.
-
+       
 if __name__ == '__main__':
     unittest.main()
